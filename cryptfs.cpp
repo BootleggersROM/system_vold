@@ -1274,7 +1274,6 @@ static int add_sector_size_param(std::vector<std::string>* extra_params_vec,
     }
     return 0;
 }
-#endif
 
 static int create_crypto_blk_dev(struct crypt_mnt_ftr* crypt_ftr, const unsigned char* master_key,
                                  const char* real_blk_name, char* crypto_blk_name, const char* name,
